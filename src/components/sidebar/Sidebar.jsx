@@ -1,6 +1,20 @@
 import React from 'react'
 import "./sidebar.css";
-import { AttachMoney, BarChart, ChatBubbleOutline, DynamicFeed, LineStyle, MailOutline, PermIdentity, Report, Storefront, Timeline, TrendingUp, WorkOutline } from '@mui/icons-material';
+import { 
+    AttachMoney, 
+    BarChart, 
+    ChatBubbleOutline, 
+    DynamicFeed, 
+    LineStyle, 
+    MailOutline, 
+    PermIdentity, 
+    PlayCircle, 
+    Report, 
+    Storefront, 
+    Timeline, 
+    TrendingUp, 
+    WorkOutline 
+} from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 
 export default function Sidebar() {
@@ -33,11 +47,11 @@ export default function Sidebar() {
                                 Users
                             </li>
                         </Link>
-                        <Link to="/products" className='link'>
+                        <Link to="/movies" className='link'>
 
                             <li className="sidebarListItem">
-                                <Storefront className='sidebarIcon' />
-                                Products
+                                <PlayCircle className='sidebarIcon' />
+                                Movies
                             </li>
                         </Link>
                         <li className="sidebarListItem">
